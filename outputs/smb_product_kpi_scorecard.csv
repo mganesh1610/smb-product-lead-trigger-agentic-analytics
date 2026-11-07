@@ -1,0 +1,41 @@
+smb_segment,trigger_type,experiment_arm,total_targeted_clients,total_conversions,conversion_rate_pct,total_incremental_revenue_usd,avg_revenue_per_client_usd,mean_propensity_score,top_20pct_conversion_rate_pct,controls_kyc_pass_rate_pct,audit_traceability_pct
+Growth Commercial Enterprise,Digital Payment Acceptance Onboarding Trigger,Control_Static,142,26,18.3099,7483.36,52.7,0.1389,41.6667,100.0,100.0
+Growth Commercial Enterprise,Digital Payment Acceptance Onboarding Trigger,Treatment_Trigger,1355,267,19.7048,73151.98,53.99,0.1708,38.0615,100.0,100.0
+Growth Commercial Enterprise,Lifecycle Re-Engagement & Dormancy Trigger,Control_Static,87,21,24.1379,6021.55,69.21,0.2136,44.7368,100.0,100.0
+Growth Commercial Enterprise,Lifecycle Re-Engagement & Dormancy Trigger,Treatment_Trigger,1250,408,32.64,114049.44,91.24,0.2597,52.9148,100.0,100.0
+Growth Commercial Enterprise,Liquidity Surge & Treasury Sweep Trigger,Control_Static,626,48,7.6677,25456.86,40.67,0.1037,40.404,100.0,100.0
+Growth Commercial Enterprise,Liquidity Surge & Treasury Sweep Trigger,Treatment_Trigger,1668,393,23.5612,196899.05,118.04,0.2019,46.7275,100.0,100.0
+Growth Commercial Enterprise,Seasonal Merchant Cash-Flow Trigger,Control_Static,1507,64,4.2468,17856.32,11.85,0.0758,32.5203,100.0,100.0
+Growth Commercial Enterprise,Seasonal Merchant Cash-Flow Trigger,Treatment_Trigger,2500,262,10.48,72825.54,29.13,0.1344,37.6673,100.0,100.0
+Growth Commercial Enterprise,Working Capital & Credit Line Trigger,Control_Static,1892,90,4.7569,24917.0,13.17,0.0548,43.2099,100.0,100.0
+Growth Commercial Enterprise,Working Capital & Credit Line Trigger,Treatment_Trigger,3602,353,9.8001,91761.37,25.48,0.1099,38.861,100.0,100.0
+Micro-Merchant & Sole Proprietor,Digital Payment Acceptance Onboarding Trigger,Control_Static,31,10,32.2581,2831.47,91.34,0.1795,33.3333,100.0,100.0
+Micro-Merchant & Sole Proprietor,Digital Payment Acceptance Onboarding Trigger,Treatment_Trigger,300,35,11.6667,9595.79,31.99,0.1607,30.3371,100.0,100.0
+Micro-Merchant & Sole Proprietor,Lifecycle Re-Engagement & Dormancy Trigger,Control_Static,21,3,14.2857,1011.46,48.16,0.2196,37.5,100.0,100.0
+Micro-Merchant & Sole Proprietor,Lifecycle Re-Engagement & Dormancy Trigger,Treatment_Trigger,186,43,23.1183,12087.75,64.99,0.2398,39.1304,100.0,100.0
+Micro-Merchant & Sole Proprietor,Liquidity Surge & Treasury Sweep Trigger,Control_Static,149,17,11.4094,8292.39,55.65,0.1229,50.0,100.0,100.0
+Micro-Merchant & Sole Proprietor,Liquidity Surge & Treasury Sweep Trigger,Treatment_Trigger,290,55,18.9655,31364.35,108.15,0.1878,48.4848,100.0,100.0
+Micro-Merchant & Sole Proprietor,Seasonal Merchant Cash-Flow Trigger,Control_Static,384,19,4.9479,5183.24,13.5,0.0825,35.7143,100.0,100.0
+Micro-Merchant & Sole Proprietor,Seasonal Merchant Cash-Flow Trigger,Treatment_Trigger,423,40,9.4563,10853.86,25.66,0.1241,38.961,100.0,100.0
+Micro-Merchant & Sole Proprietor,Working Capital & Credit Line Trigger,Control_Static,443,19,4.2889,4697.75,10.6,0.0549,30.0,100.0,100.0
+Micro-Merchant & Sole Proprietor,Working Capital & Credit Line Trigger,Treatment_Trigger,839,69,8.2241,18798.18,22.41,0.1018,40.4959,100.0,100.0
+Professional & Technical Services,Digital Payment Acceptance Onboarding Trigger,Control_Static,103,15,14.5631,4261.2,41.37,0.1123,50.0,100.0,100.0
+Professional & Technical Services,Digital Payment Acceptance Onboarding Trigger,Treatment_Trigger,822,158,19.2214,44171.25,53.74,0.1677,37.1747,100.0,100.0
+Professional & Technical Services,Lifecycle Re-Engagement & Dormancy Trigger,Control_Static,63,9,14.2857,2438.51,38.71,0.1936,30.0,100.0,100.0
+Professional & Technical Services,Lifecycle Re-Engagement & Dormancy Trigger,Treatment_Trigger,797,219,27.478,61138.89,76.71,0.2298,49.6021,100.0,100.0
+Professional & Technical Services,Liquidity Surge & Treasury Sweep Trigger,Control_Static,455,38,8.3516,19997.59,43.95,0.0828,31.9149,100.0,100.0
+Professional & Technical Services,Liquidity Surge & Treasury Sweep Trigger,Treatment_Trigger,941,192,20.4038,94071.62,99.97,0.1768,47.138,100.0,100.0
+Professional & Technical Services,Seasonal Merchant Cash-Flow Trigger,Control_Static,1338,56,4.1854,15316.08,11.45,0.0687,32.967,100.0,100.0
+Professional & Technical Services,Seasonal Merchant Cash-Flow Trigger,Treatment_Trigger,2161,190,8.7922,51910.9,24.02,0.1195,34.359,100.0,100.0
+Professional & Technical Services,Working Capital & Credit Line Trigger,Control_Static,1913,57,2.9796,14431.12,7.54,0.0469,30.1887,100.0,100.0
+Professional & Technical Services,Working Capital & Credit Line Trigger,Treatment_Trigger,3158,275,8.708,71354.49,22.59,0.0991,39.1982,100.0,100.0
+Retail & Hospitality SMB,Digital Payment Acceptance Onboarding Trigger,Control_Static,330,62,18.7879,17979.3,54.48,0.1996,35.6061,100.0,100.0
+Retail & Hospitality SMB,Digital Payment Acceptance Onboarding Trigger,Treatment_Trigger,1271,280,22.0299,76700.79,60.35,0.2024,40.0763,100.0,100.0
+Retail & Hospitality SMB,Lifecycle Re-Engagement & Dormancy Trigger,Control_Static,176,44,25.0,12186.23,69.24,0.339,42.5743,100.0,100.0
+Retail & Hospitality SMB,Lifecycle Re-Engagement & Dormancy Trigger,Treatment_Trigger,1131,372,32.8912,103544.58,91.55,0.2784,54.5161,100.0,100.0
+Retail & Hospitality SMB,Liquidity Surge & Treasury Sweep Trigger,Control_Static,900,97,10.7778,52632.04,58.48,0.1298,42.4242,100.0,100.0
+Retail & Hospitality SMB,Liquidity Surge & Treasury Sweep Trigger,Treatment_Trigger,1255,267,21.2749,132613.38,105.67,0.2172,42.2348,100.0,100.0
+Retail & Hospitality SMB,Seasonal Merchant Cash-Flow Trigger,Control_Static,2333,118,5.0579,33629.57,14.41,0.0714,37.2881,100.0,100.0
+Retail & Hospitality SMB,Seasonal Merchant Cash-Flow Trigger,Treatment_Trigger,2032,233,11.4665,63614.38,31.31,0.1289,41.9512,100.0,100.0
+Retail & Hospitality SMB,Working Capital & Credit Line Trigger,Control_Static,3033,107,3.5279,27408.97,9.04,0.0429,32.0,100.0,100.0
+Retail & Hospitality SMB,Working Capital & Credit Line Trigger,Treatment_Trigger,3304,258,7.8087,67106.12,20.31,0.0945,39.3089,100.0,100.0

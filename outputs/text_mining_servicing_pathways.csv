@@ -1,0 +1,7 @@
+servicing_pathway,utterance_volume,volume_share_pct,holdout_pathway_accuracy_pct,ai_discovery_deflection_rate_pct,top_mined_friction_ngrams
+"ACH, Wire & Real-Time Settlement",1810,13.83,89.5,99.0,"beneficiary, salary, my_salary, wrong_account, a_beneficiary, the_wrong_account"
+Account Security & Fraud Controls,1413,10.8,89.06,100.0,"delete_my, delete_my_account, gave_me, lost_my_phone, phone_was, close_my_account"
+Card & Payment Acceptance,4918,37.59,88.87,99.44,"virtual, disposable, virtual_card, visa, disposable_virtual, change_my_pin"
+Digital Onboarding & KYC Controls,914,6.99,97.08,99.58,"verify_my_identity, the_identity, identity_verification, password, identity_check, prove"
+Fee Transparency & Dispute Resolution,1271,9.71,92.5,99.17,"a_direct, a_direct_debit, my_refund, charged_twice, debit_payment, refund_for"
+Working Capital & Liquidity Management,2757,21.07,91.09,99.84,"cheque, auto, auto_top, a_cheque, auto_top_up, cash_deposit"

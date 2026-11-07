@@ -1,0 +1,132 @@
+{
+  "combined_public_records_processed": 58294,
+  "lead_trigger_funnel_records": 45211,
+  "servicing_text_inquiry_records": 13083,
+  "lead_trigger_propensity_model": {
+    "train_rows": 36168,
+    "holdout_test_rows": 9043,
+    "holdout_roc_auc": 0.8889,
+    "holdout_pr_auc": 0.489,
+    "holdout_brier_score": 0.077,
+    "baseline_brier_score": 0.1033,
+    "brier_relative_improvement_pct": 25.45,
+    "holdout_base_conversion_rate_pct": 11.7,
+    "top_20pct_trigger_conversion_rate_pct": 42.64,
+    "top_20pct_trigger_lift_x": 3.64,
+    "top_20pct_captured_conversions_pct": 72.87
+  },
+  "experimentation_and_causal_inference": {
+    "treatment_arm_name": "Digital Lead-Trigger Discovery Pathway",
+    "control_arm_name": "Legacy Static Outbound Pathway",
+    "treatment_clients": 29285,
+    "control_clients": 15926,
+    "treatment_conversions": 4369,
+    "control_conversions": 920,
+    "treatment_conversion_rate_pct": 14.92,
+    "control_conversion_rate_pct": 5.78,
+    "treatment_wilson_95_ci_pct": [
+      14.52,
+      15.33
+    ],
+    "control_wilson_95_ci_pct": [
+      5.42,
+      6.15
+    ],
+    "two_proportion_z_test": {
+      "p_treatment": 0.149189,
+      "p_control": 0.057767,
+      "abs_lift_pp": 9.1422,
+      "rel_lift_pct": 158.26,
+      "z_stat": 28.8905,
+      "p_value": 1.571705e-183,
+      "ci_95_low_pp": 8.5965,
+      "ci_95_high_pp": 9.6879
+    },
+    "doubly_robust_aipw_ate_pp": 2.92,
+    "doubly_robust_aipw_se_pp": 0.26
+  },
+  "text_mining_servicing_pathways": {
+    "total_servicing_utterances": 13083,
+    "train_utterances": 10003,
+    "holdout_test_utterances": 3080,
+    "distinct_banking_intents": 77,
+    "servicing_pathways_count": 6,
+    "tfidf_vocabulary_size": 22866,
+    "holdout_pathway_top1_accuracy_pct": 90.36,
+    "holdout_pathway_top2_accuracy_pct": 97.89,
+    "mean_ai_self_service_deflection_pct": 99.5,
+    "pathway_breakdown": [
+      {
+        "servicing_pathway": "ACH, Wire & Real-Time Settlement",
+        "utterance_volume": 1810,
+        "volume_share_pct": 13.83,
+        "holdout_pathway_accuracy_pct": 89.5,
+        "ai_discovery_deflection_rate_pct": 99.0,
+        "top_mined_friction_ngrams": "beneficiary, salary, my_salary, wrong_account, a_beneficiary, the_wrong_account"
+      },
+      {
+        "servicing_pathway": "Account Security & Fraud Controls",
+        "utterance_volume": 1413,
+        "volume_share_pct": 10.8,
+        "holdout_pathway_accuracy_pct": 89.06,
+        "ai_discovery_deflection_rate_pct": 100.0,
+        "top_mined_friction_ngrams": "delete_my, delete_my_account, gave_me, lost_my_phone, phone_was, close_my_account"
+      },
+      {
+        "servicing_pathway": "Card & Payment Acceptance",
+        "utterance_volume": 4918,
+        "volume_share_pct": 37.59,
+        "holdout_pathway_accuracy_pct": 88.87,
+        "ai_discovery_deflection_rate_pct": 99.44,
+        "top_mined_friction_ngrams": "virtual, disposable, virtual_card, visa, disposable_virtual, change_my_pin"
+      },
+      {
+        "servicing_pathway": "Digital Onboarding & KYC Controls",
+        "utterance_volume": 914,
+        "volume_share_pct": 6.99,
+        "holdout_pathway_accuracy_pct": 97.08,
+        "ai_discovery_deflection_rate_pct": 99.58,
+        "top_mined_friction_ngrams": "verify_my_identity, the_identity, identity_verification, password, identity_check, prove"
+      },
+      {
+        "servicing_pathway": "Fee Transparency & Dispute Resolution",
+        "utterance_volume": 1271,
+        "volume_share_pct": 9.71,
+        "holdout_pathway_accuracy_pct": 92.5,
+        "ai_discovery_deflection_rate_pct": 99.17,
+        "top_mined_friction_ngrams": "a_direct, a_direct_debit, my_refund, charged_twice, debit_payment, refund_for"
+      },
+      {
+        "servicing_pathway": "Working Capital & Liquidity Management",
+        "utterance_volume": 2757,
+        "volume_share_pct": 21.07,
+        "holdout_pathway_accuracy_pct": 91.09,
+        "ai_discovery_deflection_rate_pct": 99.84,
+        "top_mined_friction_ngrams": "cheque, auto, auto_top, a_cheque, auto_top_up, cash_deposit"
+      }
+    ]
+  },
+  "day_one_governance_and_controls": {
+    "total_checks": 15,
+    "passed_checks": 15,
+    "pass_rate_pct": 100.0,
+    "assertions": {
+      "check_01_client_row_parity_45211": true,
+      "check_02_event_row_parity_45211": true,
+      "check_03_servicing_row_parity_13083": true,
+      "check_04_zero_null_client_keys": true,
+      "check_05_foreign_key_integrity": true,
+      "check_06_propensity_bounds_0_1": true,
+      "check_07_non_negative_revenue": true,
+      "check_08_zero_revenue_on_non_converted": true,
+      "check_09_kyc_controls_100pct": true,
+      "check_10_audit_traceability_100pct": true,
+      "check_11_four_smb_segments_populated": true,
+      "check_12_five_trigger_types_populated": true,
+      "check_13_six_servicing_pathways_populated": true,
+      "check_14_seventy_seven_intents_preserved": true,
+      "check_15_sqlite_integrity_ok": true
+    }
+  },
+  "agentic_decision_audit_count": 12
+}

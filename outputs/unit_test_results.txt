@@ -1,0 +1,11 @@
+test_01_combined_row_scale_and_sha256_integrity (test_smb_product_analytics.TestSMBProductAnalyticsEngine.test_01_combined_row_scale_and_sha256_integrity) ... ok
+test_02_day_one_governance_and_controls_15_of_15 (test_smb_product_analytics.TestSMBProductAnalyticsEngine.test_02_day_one_governance_and_controls_15_of_15) ... ok
+test_03_lead_trigger_propensity_model_performance (test_smb_product_analytics.TestSMBProductAnalyticsEngine.test_03_lead_trigger_propensity_model_performance) ... ok
+test_04_experimentation_and_doubly_robust_aipw (test_smb_product_analytics.TestSMBProductAnalyticsEngine.test_04_experimentation_and_doubly_robust_aipw) ... ok
+test_05_text_mining_servicing_pathways (test_smb_product_analytics.TestSMBProductAnalyticsEngine.test_05_text_mining_servicing_pathways) ... ok
+test_06_exported_scorecards_and_agentic_audit_log (test_smb_product_analytics.TestSMBProductAnalyticsEngine.test_06_exported_scorecards_and_agentic_audit_log) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 3.634s
+
+OK
